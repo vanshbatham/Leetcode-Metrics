@@ -1,7 +1,5 @@
-// File: netlify/functions/leetcode.js
 
-// We use node-fetch to make requests in a Node.js environment
-const fetch = require('node-fetch');
+// File: netlify/functions/leetcode.js
 
 exports.handler = async function (event, context) {
   // Get the username from the request sent by your frontend
